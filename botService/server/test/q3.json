@@ -1,0 +1,6 @@
+   {
+      "_id": "3",
+      "body": "האם הילד עשה צרכים עד שעה 12:00 ?",
+      "is_multiple_choice": "true",
+      "offered_answers": ["כן", "לא"]
+    }

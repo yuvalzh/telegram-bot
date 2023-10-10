@@ -1,0 +1,7 @@
+
+    {
+      "_id": "8",
+      "body": "האם הילד התעורר בלילה כדי ללכת לשרותים ?",
+      "is_multiple_choice": "true",
+      "offered_answers": ["כן", "לא"]
+    }

@@ -1,0 +1,69 @@
+{
+  "name": "yalmo-bot_service",
+  "version": "0.1.0",
+  "description": "botService for YALMO project, based on MERN boilerplate",
+  "main": "server/index.ts",
+  "scripts": {
+    "start": "nodemon server/index.ts",
+    "lint": "eslint server",
+    "lint:fix": "eslint server --fix",
+    "test": "jest server --config=./config/jest.config.js",
+    "test:verbose": "jest server --config=./config/jest.config.js --verbose",
+    "test:coverage": "jest server --config=./config/jest.config.js --coverage",
+    "test:watch": "jest server --config=./config/jest.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W2WBack2RD/Yalmo"
+  },
+  "author": {
+    "name": "",
+    "url": "https://github.com/W2WBack2RD/Yalmo"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/W2WBack2RD/Yalmo/issues"
+  },
+  "keywords": [
+    "express",
+    "passport",
+    "ramda",
+    "eslint",
+    "jest"
+  ],
+  "homepage": "https://github.com/W2WBack2RD/Yalmo",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "@types/superagent": "^4.1.15",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.7",
+    "mongoose-auto-increment-reworked": "^1.2.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "ramda": "^0.27.1",
+    "superagent": "^7.1.2",
+    "telegraf": "^4.7.0",
+    "touch": "^3.1.0",
+    "tsconfig.json": "^1.0.11",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/express": "^4.17.13",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "jest": "^27.2.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}

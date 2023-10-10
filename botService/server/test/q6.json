@@ -1,0 +1,6 @@
+    {
+      "_id": "6",
+      "body": "האם הילד ישן עם טיטול ?",
+      "is_multiple_choice": "true",
+      "offered_answers": ["כן", "לא"]
+    }
