@@ -1,0 +1,58 @@
+{
+  "_id": "1",
+  "title": "bathroom",
+  "questions": [
+    {
+      "_id": "1",
+      "body": "האם הילד התפנה לפני שהוא הלך לגן בבוקר?",
+      "is_multiple_choice": "true",
+      "offered_answers": ["לא", "כן"]
+    },
+
+    {
+      "_id": "2",
+      "body": "האם הוחלף טיטול לפני שיצא לגן בבוקר?",
+      "is_multiple_choice": "true",
+      "offered_answers": ["כן", "לא"]
+    },
+
+    {
+      "_id": "3",
+      "body": "האם הילד עשה צרכים עד שעה 12:00 ?",
+      "is_multiple_choice": "true",
+      "offered_answers": ["כן", "לא"]
+    },
+    {
+      "_id": "4",
+      "body": "האם הילד עשה צרכים משעה 12:00 עד סוף היום בגן ?",
+      "is_multiple_choice": "true",
+      "offered_answers": ["כן", "לא"]
+    },
+    {
+      "_id": "5",
+      "body": "האם הילד עשה צרכים עד שהלך לישון ?",
+      "is_multiple_choice": "true",
+      "offered_answers": ["כן", "לא"]
+    },
+    {
+      "_id": "6",
+      "body": "האם הילד ישן עם טיטול ?",
+      "is_multiple_choice": "true",
+      "offered_answers": ["כן", "לא"]
+    },
+
+    {
+      "_id": "7",
+      "body": "האם הילד התעורר בלילה להחלפת טיטול ?",
+      "is_multiple_choice": "true",
+      "offered_answers": ["כן", "לא"]
+    },
+
+    {
+      "_id": "8",
+      "body": "האם הילד התעורר בלילה כדי ללכת לשרותים ?",
+      "is_multiple_choice": "true",
+      "offered_answers": ["כן", "לא"]
+    }
+  ]
+}
